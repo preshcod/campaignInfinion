@@ -53,9 +53,9 @@ console.log(activeCampaign);
 
   return (
     <section>
-    <h2 className='text-[#247b7b] text-2xl font-semibold'>All Campaigns</h2>
+    <h2 className='text-[#247b7b] text-2xl font-semibold mx-5'>All Campaigns</h2>
 
-    <div className="border-2 border-red-900  px-[50px] py-4">
+    <div className="border-2   px-[50px] py-4">
         <div className="flex items-center gap-7 w-full justify-between mb-[40px]">
             <div className="flex items-center gap-5">
             <div className='border border-[#247B7B] text-[#247B7B] p-2 rounded-lg'>{`All (${allCampaign.length})`}</div>

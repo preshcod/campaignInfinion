@@ -24,11 +24,8 @@ function CreateCampaign() {
     const handleSubmit = async (e) => {
             e.preventDefault()
         try {
-            const res = await axios(`https://infinion-test-int-test.azurewebsites.net/api/Campaign`,formData,{
-                headers: {
-                    'Content-Type': 'multipart/form-data'
-                }
-            })
+           await axios.post(`https://infinion-test-int-test.azurewebsites.net/api/Campaign`,formData)
+                
                             
         } catch (error) {
             console.log(error);
